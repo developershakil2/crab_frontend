@@ -180,7 +180,7 @@ const modalFunc=()=>{
                <p className="font-black text-white">Buy Now*</p>
                <div className="border-[1px] rounded-lg p-2 flex w-[160px] mb-4  ">
                    <img src="images/fish.png"  alt="bank" className="w-[40px] rounded-lg h-[40px]" />
-                   <p className="leading-4 ml-3 text-white font-[400]">Fish Farm <br/> investment</p>
+                   <p className="leading-4 ml-3 text-white font-[400]">Crab Farm <br/> investment</p>
                 
                </div>
 
