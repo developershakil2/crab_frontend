@@ -474,14 +474,14 @@ body {
 }
 
 @media screen and (max-width:450px){
-  .card_gradient{
+ .card_gradient{
     background-image:url('./bg-mobile.jpg');
     background-repeat:no-repeat;
     height:100vh ;
     width:100% !important;
-     
-      background-size:cover;
+    object-fit:contain !important;
+    background-size:cover;
+   
     
-}
 
 }
