@@ -39,10 +39,10 @@ export default function Home() {
          <Nav color={'#fff'} visibility={'block'} wd={'200px'} vl={'none'}/>
          </div>
         <h1 className="text-white text-4xl font-black">Welcome To</h1>
-        <h1 className="text-white text-4xl px-2  text-center font-black">Crab Peso</h1>
+        <h1 className="text-white text-4xl px-2  text-center font-black">Peso Crab</h1>
           
           <div className="w-[680px] hero_p  flex justify-center items-center flex-col mx-auto">
-            <p className="text-center mt-4  text-white">Dive into Success with Crab Peso - The Future of Aquaculture. Unlock Profitable Opportunities in Aquaculture with Crab Peso. Make Waves in the Aquaculture Industry - Invest in Crab Peso and earn 1% daily for 30 days plus return of capital.
+            <p className="text-center mt-4  text-white">Dive into Success with Peso Crab - The Future of Aquaculture. Unlock Profitable Opportunities in Aquaculture with Peso Crab. Make Waves in the Aquaculture Industry - Invest in Peso Crab and earn 1% daily for 30 days plus return of capital.
             </p>
 
             <a href="/login" className="py-4 px-8 backdrop-blur-2xl rounded-xl mt-5 bg-[#00e5ff17] font-black text-white">Get Started</a>
