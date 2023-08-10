@@ -18,7 +18,7 @@ const [dnone, setdDnone] = useState('block')
     const data = localStorage.getItem('usersOb');
     setUserData(JSON.parse(data));
      const Id = `64c61a5fe4fbd0f1ea7fd99f`;
-    axios.get(`https://isda-farm.onrender.com/bankget/${Id}`).then((res)=>{
+    axios.get(`https://fishfarm.onrender.com/bankget/${Id}`).then((res)=>{
       setBankDetails(res.data);
     }).catch((err)=>{
       console.log(err);
@@ -58,7 +58,7 @@ const [dnone, setdDnone] = useState('block')
                  formData.append('proofImg', blob, uniqueFilename);
   
         axios
-          .post('https://isda-farm.onrender.com/transaction', formData, {
+          .post('https://fishfarm.onrender.com/transaction', formData, {
             headers: {
               'Content-Type': 'multipart/form-data',
             },
@@ -109,7 +109,7 @@ const [dnone, setdDnone] = useState('block')
   } 
     return(
         <>
-        <div style={{display:modalHandle}} className="absolute bg-[#7e0beb69] z-50 top-0 left-0 w-full h-screen flex justify-center items-center">
+        <div style={{display:modalHandle}} className="absolute bg-[#000000bb] z-50 top-0 left-0 w-full h-screen flex justify-center items-center">
              <div className="w-[320px] flex flex-col p-10 justify-center items-center h-[320px] rounded-xl bg-white">
                    <h2 className="text-md font-bold text-center ">{modalTitle}</h2>
                    <button onClick={modalFunc} className="bg-black p-5 mt-5 rounded-full text-white px-20 font-black">Okay</button>
@@ -117,20 +117,20 @@ const [dnone, setdDnone] = useState('block')
              </div>
     </div>
 
-        <div className="card_gradient overflow-hidden h-screen relative ">
+        <div className="bg-gradient-to-t from-[#11292d] overflow-hidden h-screen to-sky-500 relative ">
        
 
-     
-        <img src="images/crab3.gif" alt="fish"  className="w-[140px] h-[140px] fish1 absolute"/>
-        <img src="images/crab3.gif" alt="fish"  className="w-[160px] h-[160px] fish7 absolute"/>
-   <img src="images/fish.png" alt="fish"  className="w-[120px] h-[120px] fish2 absolute"/>
+       <img src="images/fish.png" alt="fish"  className="w-[140px] h-[140px] fish1 absolute"/>
 
-   <img src="images/fish.png" alt="fish"  className="w-[90px] h-[90px] fish3 absolute"/>
+       <img src="images/fish.png" alt="fish"  className="w-[120px] h-[120px] fish2 absolute"/>
 
-   <img src="images/fish.png" alt="fish"  className="w-[70px] h-[70px] fish4 absolute"/>
-   <img src="images/crab3.gif" alt="fish"  className="w-[160px] h-[160px] fish5 absolute"/>
+       <img src="images/fish.png" alt="fish"  className="w-[90px] h-[90px] fish3 absolute"/>
   
-   <img src="images/crab3.gif" alt="fish"  className="w-[200px] h-[200px] fish6 absolute"/>
+       <img src="images/fish.png" alt="fish"  className="w-[70px] h-[70px] fish4 absolute"/>
+       <img src="images/fish.png" alt="fish"  className="w-[160px] h-[160px] fish5 absolute"/>
+       <img src="images/fish.png" alt="fish"  className="w-[200px] h-[200px] fish6 absolute"/>
+ 
+
 
     <div className="bubble_wrap ">
     <img src="images/b2.png" alt="bubble"  className="w-[25px] h-[25px] b1 rounded-full absolute"/>
@@ -154,7 +154,7 @@ const [dnone, setdDnone] = useState('block')
       </div>
  <div className="flex justify-between bl_wrap items-center">
  
- <div className="w-[350px]  my-4 mx-2 border-[1px] mt-10 rounded-xl">
+ <div className="w-[350px]  my-4 mx-2 bg-[#0098ff75] mt-10 rounded-xl">
             <div className="flex flex-col justify-center px-5 my-5 items-start">
                <p className="font-black text-white">Payment Type*</p>
                <div className="border-[1px] rounded-lg p-2 flex w-[160px] mb-4  ">
@@ -166,7 +166,7 @@ const [dnone, setdDnone] = useState('block')
                </div>
 
 
-               <div className="border-[1px] rounded-xl p-5 ">
+               <div className="bg-[#00b8ff70] rounded-xl p-5 ">
                  <h2 className="font-black text-white ">Payment Details</h2>
                  <p className="text-sm text-white font-[400]">{bankDetails?.bankName} Details</p>
                  <p className="text-sm text-white font-[400]">{bankDetails?.bankAccountHolderName}</p>
@@ -189,7 +189,7 @@ const [dnone, setdDnone] = useState('block')
  </div>
      
  
- <div className="w-[350px] justify-center items-center my-4 mx-2 border-[1px] rounded-xl">
+ <div className="w-[350px] justify-center items-center my-4 mx-2 bg-[#0098ff75] rounded-xl">
             <div className="flex flex-col justify-center px-5 my-5 items-start">
                               {/* <h3 className="text-green-400">{res == "" ? "": res}</h3>    */}
             <div className="flex flex-col justify-center px-5 mb-4 items-start">
