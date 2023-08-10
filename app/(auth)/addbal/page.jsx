@@ -18,7 +18,7 @@ const [dnone, setdDnone] = useState('block')
     const data = localStorage.getItem('usersOb');
     setUserData(JSON.parse(data));
      const Id = `64c61a5fe4fbd0f1ea7fd99f`;
-    axios.get(`https://fishfarm.onrender.com/bankget/${Id}`).then((res)=>{
+    axios.get(`https://isda-farm.onrender.com/bankget/${Id}`).then((res)=>{
       setBankDetails(res.data);
     }).catch((err)=>{
       console.log(err);
@@ -58,7 +58,7 @@ const [dnone, setdDnone] = useState('block')
                  formData.append('proofImg', blob, uniqueFilename);
   
         axios
-          .post('https://fishfarm.onrender.com/transaction', formData, {
+          .post('https://isda-farm.onrender.com/transaction', formData, {
             headers: {
               'Content-Type': 'multipart/form-data',
             },
