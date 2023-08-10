@@ -221,6 +221,4 @@ const [dnone, setdDnone] = useState('block')
     )
 }
 
-
-
 export default AddBal
