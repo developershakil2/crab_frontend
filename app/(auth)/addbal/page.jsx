@@ -148,13 +148,13 @@ const [dnone, setdDnone] = useState('block')
 
     </div>
   
-    <div className="h-screen w-full bg-[#00000069] flex-col flex justify-center items-center  absolute top-0 left-0">
+    <div className="h-screen w-full border-[1px]   flex-col flex justify-center items-center  absolute top-0 left-0">
       <div className="absolute top-0 left-0 w-full">
       <Nav color={'#fff'} visibility={'none'} vl={'block'}  wd={'30%'}/>
       </div>
  <div className="flex justify-between bl_wrap items-center">
  
- <div className="w-[350px]  my-4 mx-2 bg-[#0098ff75] mt-10 rounded-xl">
+ <div className="w-[350px]  my-4 mx-2 border-[1px]   mt-10 rounded-xl">
             <div className="flex flex-col justify-center px-5 my-5 items-start">
                <p className="font-black text-white">Payment Type*</p>
                <div className="border-[1px] rounded-lg p-2 flex w-[160px] mb-4  ">
@@ -166,7 +166,7 @@ const [dnone, setdDnone] = useState('block')
                </div>
 
 
-               <div className="bg-[#00b8ff70] rounded-xl p-5 ">
+               <div className="border-[1px]  rounded-xl p-5 ">
                  <h2 className="font-black text-white ">Payment Details</h2>
                  <p className="text-sm text-white font-[400]">{bankDetails?.bankName} Details</p>
                  <p className="text-sm text-white font-[400]">{bankDetails?.bankAccountHolderName}</p>
@@ -189,7 +189,7 @@ const [dnone, setdDnone] = useState('block')
  </div>
      
  
- <div className="w-[350px] justify-center items-center my-4 mx-2 bg-[#0098ff75] rounded-xl">
+ <div className="w-[350px] justify-center items-center my-4 mx-2 border-[1px]   rounded-xl">
             <div className="flex flex-col justify-center px-5 my-5 items-start">
                               {/* <h3 className="text-green-400">{res == "" ? "": res}</h3>    */}
             <div className="flex flex-col justify-center px-5 mb-4 items-start">
