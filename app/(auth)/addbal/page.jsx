@@ -117,19 +117,19 @@ const [dnone, setdDnone] = useState('block')
              </div>
     </div>
 
-        <div className="bg-gradient-to-t from-[#11292d] overflow-hidden h-screen to-sky-500 relative ">
+        <div className="card_gradient overflow-hidden h-screen relative ">
        
 
-       <img src="images/fish.png" alt="fish"  className="w-[140px] h-[140px] fish1 absolute"/>
+        <img src="images/crab3.gif" alt="fish"  className="w-[140px] h-[140px] fish1 absolute"/>
+        <img src="images/crab3.gif" alt="fish"  className="w-[160px] h-[160px] fish7 absolute"/>
+   <img src="images/fish.png" alt="fish"  className="w-[120px] h-[120px] fish2 absolute"/>
 
-       <img src="images/fish.png" alt="fish"  className="w-[120px] h-[120px] fish2 absolute"/>
+   <img src="images/fish.png" alt="fish"  className="w-[90px] h-[90px] fish3 absolute"/>
 
-       <img src="images/fish.png" alt="fish"  className="w-[90px] h-[90px] fish3 absolute"/>
+   <img src="images/fish.png" alt="fish"  className="w-[70px] h-[70px] fish4 absolute"/>
+   <img src="images/crab3.gif" alt="fish"  className="w-[160px] h-[160px] fish5 absolute"/>
   
-       <img src="images/fish.png" alt="fish"  className="w-[70px] h-[70px] fish4 absolute"/>
-       <img src="images/fish.png" alt="fish"  className="w-[160px] h-[160px] fish5 absolute"/>
-       <img src="images/fish.png" alt="fish"  className="w-[200px] h-[200px] fish6 absolute"/>
- 
+   <img src="images/crab3.gif" alt="fish"  className="w-[200px] h-[200px] fish6 absolute"/>
 
 
     <div className="bubble_wrap ">
