@@ -1,15 +1,19 @@
 'use client'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Nav from "../../(components)/Nav";
 import axios from 'axios';
 import { useRouter } from "next/navigation";
 const Signup =()=>{
 
-const reflink  = window.location.href;
+const [actualRefLink, setactualRefLink] = useState('')
+useEffect(()=>{
+  const reflink  = window.location.href;
 
 const  refLink = new URL(reflink);
 
 const actualRefLink =  refLink.searchParams.get("id");
+setactualRefLink(actualRefLink)
+},)
 
 
 

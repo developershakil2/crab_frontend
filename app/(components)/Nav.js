@@ -32,7 +32,7 @@ const Nav =({color, visibility, vl, wd})=>{
                        
 
                         <a href="/"style={{color:color, display:visibility}} className="text-sm font-black">Home</a>
-                        <a href="/signup" style={{color:color, display:visibility}} className="text-sm font-black">Sign up</a>
+                        <a href="/register" style={{color:color, display:visibility}} className="text-sm font-black">Sign up</a>
                         <a href="/login" style={{color:color, display:visibility}} className="text-sm font-black">Login</a>
                         <a href="/dashboard" style={{color:color, display:vl}} className="text-sm font-black">Dashboard</a>
                         <a href="/wallet" style={{color:color, display:vl}} className="text-sm font-black">wallet</a>
