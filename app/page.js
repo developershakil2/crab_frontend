@@ -42,7 +42,7 @@ export default function Home() {
         <h1 className="text-white text-4xl px-2  text-center font-black">Peso Crab</h1>
           
           <div className="w-[680px] hero_p  flex justify-center items-center flex-col mx-auto">
-            <p className="text-center mt-4  text-white">Dive into Success with Peso Crab - The Future of Aquaculture. Unlock Profitable Opportunities in Aquaculture with Peso Crab. Make Waves in the Aquaculture Industry - Invest in Peso Crab and earn 1% daily for 30 days plus return of capital.
+            <p className="text-center mt-4  text-white">Dive into Success with Peso Crab - The Future of Aquaculture. Unlock Profitable Opportunities in Aquaculture with Peso Crab. Make Waves in the Aquaculture Industry - Invest in Peso Crab and earn 5% daily for 30 days 
             </p>
 
             <a href="/login" className="py-4 px-8 backdrop-blur-2xl rounded-xl mt-5 bg-[#00e5ff17] font-black text-white">Get Started</a>
