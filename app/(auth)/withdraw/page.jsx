@@ -27,8 +27,8 @@ const Withdraw =()=>{
           }else if(bank === ""){
             setModalTitle("please enter bank number");
             setModalHandle('flex');
-          }else if(amount  === ""){
-            setModalTitle("please enter amount");
+          }else if(amount  === "" || amount < 200){
+            setModalTitle("please enter amount or minimum withdraw amount is 200");
             setModalHandle('flex');
           }else if(holderName === ""){
             setModalTitle("please enter account holder name");
