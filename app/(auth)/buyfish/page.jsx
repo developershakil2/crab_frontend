@@ -198,7 +198,7 @@ const modalFunc=()=>{
             <div className="flex flex-col justify-center px-5 my-5 items-start">
                               <h3 className="text-green-400">{res}</h3>   
             <div className="flex flex-col justify-center px-5 w-full items-start">
-                <label  name="phone" className="text-white font-bold ml-3 text-sm">minimum buy fish 1000 peso *</label>
+                <label  name="phone" className="text-white font-bold ml-3 text-sm">minimum buy fish 500 peso *</label>
                 <input type="number" value={amount} onChange={(e)=> setAmount(e.target.value)} className="w-full text-white rounded-2xl py-3 bg-transparent border-[1px] outline-none  px-2 text-sm font-black" placeholder="amount   " />
               
             </div>
