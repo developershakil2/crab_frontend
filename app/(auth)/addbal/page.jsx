@@ -43,9 +43,9 @@ const [dnone, setdDnone] = useState('block')
         console.log('Please select an image and enter the amount.');
         return;
       }
-      if(amount ===  ""){
+      if(amount ===  "" || amount < 500){
         
-        setModalTitle('please enter request amount');
+        setModalTitle('please enter request amount or minimum amount 500 peso to add balance');
         setModalHandle('flex');
       }else{
         const formData = new FormData();
